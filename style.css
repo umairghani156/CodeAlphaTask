@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(108, 172, 236);
+}
+#inputBar{
+    width: 300px;
+    height: 40px;
+}
+.todoParent h1{
+    color: #fff;
+    font-family: 'Protest Revolution', sans-serif;
+}
+#listItems{
+    list-style: none;
+    width: 80%;
+    padding-left: 2px !important;
+    margin-left: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+    border-radius: 7px;
+    padding: 5px 0;
+
+}
+#listItems li{
+    padding-left: 10px !important;
+    display: flex;
+    justify-content: space-between;
+}
+#listItems li span{
+    margin-right: 10px;
+}
+#todo-column{
+    background-color: blue;
+    margin-top: 100px !important;
+    border-radius: 10px;
+}
+.todoParent{
+    width: 100%;
+}
+#addTaskBtn{
+    font-weight: 500;
+}
+#editbtn{
+    border: 1px solid green;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#dltbtn{
+    border: 1px solid rgb(237, 13, 13);
+    padding: 5px 10px;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Media Queries */
+@media (max-width: 390px) {
+    #addTaskBtn{
+      font-size: 12px;
+    }
+  }
